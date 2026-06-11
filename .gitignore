@@ -1,0 +1,30 @@
+# WorkBuddy 内部数据
+.workbuddy/
+
+# 重复图片（副本）
+*副本*
+
+# 临时辅助脚本
+fix_install_cell.py
+fix_font_and_rerun.py
+fix_font_v2.py
+fix_font_v3.py
+create_notebook.py
+add_install_cell.py
+generate_report.py
+enhance_report.py
+enhance_report_v2.py
+enhance_report_v3.py
+extract_doc_text.py
+extract_full_text.py
+make_report.py
+replace_images.py
+replace_docx_images.py
+
+# Word 临时文件
+~$*
+
+# Python 缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
