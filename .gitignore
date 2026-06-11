@@ -1,30 +1,44 @@
-# WorkBuddy 内部数据
-.workbuddy/
-
-# 重复图片（副本）
-*副本*
-
-# 临时辅助脚本
-fix_install_cell.py
-fix_font_and_rerun.py
-fix_font_v2.py
-fix_font_v3.py
-create_notebook.py
-add_install_cell.py
-generate_report.py
-enhance_report.py
-enhance_report_v2.py
-enhance_report_v3.py
-extract_doc_text.py
-extract_full_text.py
-make_report.py
-replace_images.py
-replace_docx_images.py
-
-# Word 临时文件
-~$*
-
-# Python 缓存
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# 提交物（非工程文件）
+submission/
+大作业第几组（期末报告）：负责人姓名、成员姓名/
+
+# 办公文档
+*.pptx
+*.doc
+*.docx
+~$*
+
+# 图片副本
+*副本*
+
+# 临时脚本
+fix_*.py
+create_*.py
+add_*.py
+generate_*.py
+enhance_*.py
+extract_*.py
+make_*.py
+replace_*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WorkBuddy
+.workbuddy/
